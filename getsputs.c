@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    char str[100];
+    printf("Enter a string: \n");
+    gets(str);
+    printf("You entered: \n");
+    puts(str);
+    return 0; 
+}
